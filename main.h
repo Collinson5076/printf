@@ -9,4 +9,6 @@
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_n(va_list n);
+void print_buffer(char buffer[], int *buff_ind);
+
 #endif
